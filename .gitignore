@@ -1,2 +1,2 @@
 node_modules
-infra\db\expensesDatabase.sqlite
+infra/db/expensesDatabase.sqlite
