@@ -5,7 +5,7 @@ const port = process.env.PORT || 8080;
 
 app.use(express.json());
 
-import mainRoutes from "./routes/main.js";
+import mainRoutes from "./routes/Main.js";
 app.use("/", mainRoutes);
 
 import expenseRoutes from "./routes/expense.js";
