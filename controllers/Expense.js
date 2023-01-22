@@ -4,6 +4,10 @@ export class Expense {
   constructor() {
   }
 
+  GetHomeExpenses= async (req, res) =>  {
+    res.sendFile('../views/index.html');
+  }
+
   GetAllExpenses = async (req, res) =>  {
     const getAllResult = await expenseTable.getAllExpenses();
     res.json(getAllResult);
